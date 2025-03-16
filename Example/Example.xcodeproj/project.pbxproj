@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3D54EA9E2D86A09A00B6C965 /* WWSimpleAI_DeepSeek in Frameworks */ = {isa = PBXBuildFile; productRef = 3D54EA9D2D86A09A00B6C965 /* WWSimpleAI_DeepSeek */; };
+		3DC2B45A2D86A74000B8B87D /* WWSimpleAI_DeepSeek in Frameworks */ = {isa = PBXBuildFile; productRef = 3DC2B4592D86A74000B8B87D /* WWSimpleAI_DeepSeek */; };
 		817567FC2CA2C2B400B24577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817567FB2CA2C2B400B24577 /* AppDelegate.swift */; };
 		817568002CA2C2B400B24577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817567FF2CA2C2B400B24577 /* ViewController.swift */; };
 		817568032CA2C2B400B24577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817568012CA2C2B400B24577 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC2B45A2D86A74000B8B87D /* WWSimpleAI_DeepSeek in Frameworks */,
 				3D54EA9E2D86A09A00B6C965 /* WWSimpleAI_DeepSeek in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +140,7 @@
 			name = Example;
 			packageProductDependencies = (
 				3D54EA9D2D86A09A00B6C965 /* WWSimpleAI_DeepSeek */,
+				3DC2B4592D86A74000B8B87D /* WWSimpleAI_DeepSeek */,
 			);
 			productName = Example;
 			productReference = 817567F82CA2C2B400B24577 /* Example.app */;
@@ -168,7 +171,7 @@
 			);
 			mainGroup = 817567EF2CA2C2B400B24577;
 			packageReferences = (
-				3D54EA9C2D86A09A00B6C965 /* XCLocalSwiftPackageReference "../../WWSimpleAI_DeepSeek" */,
+				3DC2B4582D86A74000B8B87D /* XCRemoteSwiftPackageReference "WWSimpleAI_DeepSeek" */,
 			);
 			productRefGroup = 817567F92CA2C2B400B24577 /* Products */;
 			projectDirPath = "";
@@ -434,16 +437,25 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		3D54EA9C2D86A09A00B6C965 /* XCLocalSwiftPackageReference "../../WWSimpleAI_DeepSeek" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../WWSimpleAI_DeepSeek;
+/* Begin XCRemoteSwiftPackageReference section */
+		3DC2B4582D86A74000B8B87D /* XCRemoteSwiftPackageReference "WWSimpleAI_DeepSeek" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/William-Weng/WWSimpleAI_DeepSeek";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		3D54EA9D2D86A09A00B6C965 /* WWSimpleAI_DeepSeek */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = WWSimpleAI_DeepSeek;
+		};
+		3DC2B4592D86A74000B8B87D /* WWSimpleAI_DeepSeek */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DC2B4582D86A74000B8B87D /* XCRemoteSwiftPackageReference "WWSimpleAI_DeepSeek" */;
 			productName = WWSimpleAI_DeepSeek;
 		};
 /* End XCSwiftPackageProductDependency section */

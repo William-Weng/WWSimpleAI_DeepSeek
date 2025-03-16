@@ -1,5 +1,5 @@
 {
-  "originHash" : "ac5a6619cb115bf124bd14b742841177d74d1ec9016429d8df3083fc940d7c38",
+  "originHash" : "79cb85601ee1561d890ce0d50e96e2409576e589be3c7ad5844c421176974414",
   "pins" : [
     {
       "identity" : "wwnetworking",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "9e41bb9f5ed6b19030389b77c0a73520844a20f5",
         "version" : "1.7.5"
+      }
+    },
+    {
+      "identity" : "wwsimpleai_deepseek",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWSimpleAI_DeepSeek",
+      "state" : {
+        "revision" : "df148db575aeacf4259ab9547af6ee9731ea097d",
+        "version" : "0.2.0"
       }
     },
     {
